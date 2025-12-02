@@ -22,4 +22,4 @@ You can then access the application through the following URL:
    http://localhost:8080/story/gen-story
 
 If you only would like to work with API then send query to:
-http://localhost:8000
+http://localhost:8000/generate_story
