@@ -44,6 +44,15 @@ class Story extends Model
         return ['age'=>'Возраст от 3 до 16'];
     }
 
+    public function attributeLabels()
+    {
+        return [
+            'age' => 'Возраст ребенка',
+            'lang' => 'Язык сказки',
+            'characters' => 'Персонажи сказки',
+        ];
+    }
+    
     public function getStory(): string
     {
         if (!$this->validate()) {
