@@ -1,16 +1,11 @@
 <?php
 /** @var yii\web\View $this */
-/** @var string $status */
+/** @var string $response */
+/** @var app\modules\story\models\Story $model */
 
+use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
-$this->title = 'Stories';
+$this->title = 'index';
 ?>
 
-<div class="story">
-    <div class="row">
-        <div class="col-md-7">
-            Connect with python:<?= print_r($status) ?></h1>
-        </div>
-    </div>
-</div>

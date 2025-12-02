@@ -47,7 +47,7 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-                "GET story/<action>" => "story/stories/<action>",
+                "story/<action>" => "story/default/<action>",
             ],
         ]
     ],
