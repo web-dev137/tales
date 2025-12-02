@@ -9,7 +9,7 @@ INSTALLATION
 Clone repository:
 git clone https://github.com/web-dev137/tales.git
 
-Set API key:
+Set API key Gemini:
 GEMINI_API_KEY="<your_api_key_here>"
 in file /api/.env
 
