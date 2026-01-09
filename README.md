@@ -14,7 +14,9 @@ GEMINI_API_KEY="<your_api_key_here>"
 in file /api/.env
 
 Run the docker commands in the terminal:
+
 docker-compose build --no-cache
+
 docker-compose up -d
 
 You can then access the application through the following URL:
